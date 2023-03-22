@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-float luaspersegipanjang(float p, float l) {	 //Untuk menghitung luas persegi panjang
+float luaspersegipanjang(float p, float l) {	 
 	return p * l;
 }
 
-float luassegitiga(float a, float t) {			//Untuk menghitung luas segitiga
+float luassegitiga(float a, float t) {			
 	return 0.5 * a * t;
 }
 
-float luaslingkaran(float r) {					//Untuk menghitung luas lingkaran
+float luaslingkaran(float r) {					
 	return 3.14 * r * r;
 }
 
@@ -19,25 +19,21 @@ int main() {
 	float panjang, lebar, tinggi, jejari, alas;
 	int pilihan;
 
-
-	cout << "---------------------" << endl;
-	cout << "-------M E N U-------" << endl;
-	cout << "---------------------" << endl;
-
-	cout << "1. luas persegipanjang" << endl;
-	cout << "2. luas segitiga" << endl;
-	cout << "3. luas lingkaran" << endl;
-	cout << "4. exit" << endl;
-
-	cout << "masukan pilihan : ";
-	cout << "\npilihan (1/2/3/4) : ";
-	cin >> pilihan;
-
-	system("cls");
+	
 
 	do
 	{
+		cout << "\n\n---------------------" << endl;
+		cout << "-------M E N U-------" << endl;
+		cout << "---------------------" << endl;
 
+		cout << "1. luas persegipanjang" << endl;
+		cout << "2. luas segitiga" << endl;
+		cout << "3. luas lingkaran" << endl;
+		cout << "4. exit" << endl;
+
+		cout << "masukan pilihan : ";
+		cin >> pilihan;
 
 		switch (pilihan)
 		{
