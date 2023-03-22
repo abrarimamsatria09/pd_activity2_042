@@ -47,9 +47,9 @@ int main() {
 
 		case 2:
 			cout << "masukan alas : ";
-			cin >> panjang;
+			cin >> alas;
 			cout << "masukan tinggi : ";
-			cin >> lebar;
+			cin >> tinggi;
 			cout << "luas segitiga = " << luassegitiga(alas, tinggi);
 			break;
 
