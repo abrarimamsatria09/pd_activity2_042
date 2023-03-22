@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pemrogamandasar", "pemrogamandasar\pemrogamandasar.vcxproj", "{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Debug|x64.ActiveCfg = Debug|x64
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Debug|x64.Build.0 = Debug|x64
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Debug|x86.Build.0 = Debug|Win32
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Release|x64.ActiveCfg = Release|x64
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Release|x64.Build.0 = Release|x64
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Release|x86.ActiveCfg = Release|Win32
+		{9DACB7D2-BE13-4382-891D-FB1594A2BEEF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFB4220B-88E0-4DBE-98ED-EE62CCC07E5D}
+	EndGlobalSection
+EndGlobal
